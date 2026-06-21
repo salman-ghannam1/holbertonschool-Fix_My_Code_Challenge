@@ -4,9 +4,7 @@ import sys
 
 
 def fizzbuzz(n):
-    """
-    Print numbers from 1 to n following FizzBuzz rules.
-    """
+    """Print numbers from 1 to n following FizzBuzz rules."""
     if n < 1:
         return
 
@@ -34,4 +32,4 @@ if __name__ == "__main__":
 
     number = int(sys.argv[1])
     fizzbuzz(number)
-    -
+    
